@@ -1,0 +1,82 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+.header {
+    background-color: color(primary-blue);
+    height: 3.4rem;
+    .header-nav{
+        max-width: map-get($breakpoints, desktop);
+        margin: 0 auto;
+        padding-right: $white-space;
+        padding-left: $white-space;
+
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-nav-left{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        &__menu{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        &__item{
+            display: inline-flex;
+            padding-right: map-get($offsets, default);
+        }
+        &__link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: color(white);
+            opacity: 0.6;
+            font-size: map-get($font-sizes, nav);
+        }
+        &__icon{
+            color: color(white);
+            opacity: 0.6;
+            font-size: 1.4rem;
+            padding-right: map-get($offsets, small);
+        }
+        .icon-i-logo{
+            font-size: 1.8rem;
+            padding-right: map-get($offsets, default);
+        }
+    }
+    .header-nav-right{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        &__menu{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        &__item{
+            display: inline-flex;
+            padding-right: map-get($offsets, default);
+        }
+        &__link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: color(white);
+            opacity: 0.6;
+            font-size: map-get($font-sizes, nav);
+        }
+        &__icon{
+            color: color(white);
+            opacity: 0.6;
+            font-size: 1.4rem;
+            padding-right: map-get($offsets, small);
+        }
+        &__user-avatar{}
+        &__user-name{}
+        &__user-position{}
+    }
+}

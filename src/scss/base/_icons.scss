@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot');
+    src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf') format('truetype'),
+      url('../fonts/icomoon.woff') format('woff'),
+      url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-i-analytics:before {
+    content: "\e900";
+  }
+  .icon-i-answers:before {
+    content: "\e901";
+  }
+  .icon-i-bin:before {
+    content: "\e902";
+  }
+  .icon-i-comments:before {
+    content: "\e903";
+  }
+  .icon-i-comment-smile:before {
+    content: "\e904";
+  }
+  .icon-i-conversations:before {
+    content: "\e905";
+  }
+  .icon-i-dots:before {
+    content: "\e906";
+  }
+  .icon-i-expand:before {
+    content: "\e907";
+  }
+  .icon-i-level-up:before {
+    content: "\e908";
+  }
+  .icon-i-lightbulb:before {
+    content: "\e909";
+  }
+  .icon-i-logo:before {
+    content: "\e90a";
+  }
+  .icon-i-question:before {
+    content: "\e90b";
+  }
+  .icon-i-questions:before {
+    content: "\e90c";
+  }
+  .icon-i-robot:before {
+    content: "\e90d";
+  }
+  .icon-i-search:before {
+    content: "\e90e";
+  }
+  .icon-i-settings:before {
+    content: "\e90f";
+  }
+  .icon-i-thumbs-down:before {
+    content: "\e910";
+  }
+  .icon-i-thumbs-up:before {
+    content: "\e911";
+  }
