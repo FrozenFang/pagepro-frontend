@@ -33,6 +33,10 @@
             border: 1px solid color(light-bg);
             border-radius: 0.3rem;
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+            background-image: url('../img/icons/i-arrows.svg');
+            background-position: calc(100% - 1rem), 100% 0;
+            background-size:  1rem 1rem;
+            background-repeat: no-repeat;
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
@@ -64,7 +68,7 @@
         padding: 1.3rem;
         color: color(light-font);
         &__result {
-            &-indicator{
+            &-indicator {
                 color: color(accent_red);
             }
         }
