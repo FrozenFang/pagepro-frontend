@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>
-    Homepage
+Homepage
 </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -17,6 +17,7 @@
 <header class="header">
     <nav class="header-nav">
         <div class="header-nav-left">
+        <button class="header-nav-left__mobile-menu">O</button>
             <ul class="header-nav-left__menu">
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">
@@ -82,19 +83,131 @@
 
 <div class="l-inner">
     <div class="l-main__head">
-        <div class="l-main__head__title">
-            <h2>Page Content</h2>
+    <div class="search">
+    <h2 class="search__title">Questions</h2>
+    <p class="search__description">— Train the Bot to give better answers to asked questions</p>
+    <div class="search__controlls">
+        <select class="search__controlls__select">
+            <option value="">All (5)</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+        </select>
+        <input class="search__controlls__input" type="search" aria-label="Search Questions" placeholder="Search Questions">
+    </div>
+</div>
+
+    </div>
+    <div>
+        <div class="card">
+    <div class="card__header">
+        <span class="card__header__icon icon-i-question">
+        </span>
+        <p class="card__header__title">
+            Why haven’t I recieved my products
+            yet, ordered more than a week ago?
+        </p>
+    </div>
+    <div class="card__content">
+        <select class="card__content__answer-select">
+            <option value="">Could I have your invoice invoice_id?</option>
+            <option value="1">Lorem Ipsum</option>
+            <option value="2">Lorem Ipsum</option>
+        </select>
+        <div class="card__content__controls">
+            <a href="#" class="link">
+                <span>View conversation</span>
+                <span class="icon-i-conversations"></span>
+            </a>
+            <button class="button">
+                <span>Train</span>
+                <span class="icon-i-robot"></span>
+            </button>
         </div>
     </div>
-    <div class="l-main__content">
-        <nav>
-    <ul>
-        <li><a class="ui-link" href="#">Link 01</a></li>
-        <li><a class="ui-link" href="#">Link 02</a></li>
-        <li><a class="ui-link" href="#">Link 03</a></li>
-        <li><a class="ui-link" href="#">Link 04</a></li>
-    </ul>
-</nav>
+    <div class="card__footer">
+        <span class="card__footer__result">
+            6 Minutes Ago — <span class="card__footer__result-indicator">Not Helpful</span>
+        </span>
+        <a href="#" class="card__footer__delete">
+            <span class="icon-i-bin"></span>
+        </a>
+    </div>
+</div>
+
+
+        <div class="card">
+    <div class="card__header">
+        <span class="card__header__icon icon-i-question">
+        </span>
+        <p class="card__header__title">
+            Why haven’t I recieved my products
+            yet, ordered more than a week ago?
+        </p>
+    </div>
+    <div class="card__content">
+        <select class="card__content__answer-select">
+            <option value="">Could I have your invoice invoice_id?</option>
+            <option value="1">Lorem Ipsum</option>
+            <option value="2">Lorem Ipsum</option>
+        </select>
+        <div class="card__content__controls">
+            <a href="#" class="link">
+                <span>View conversation</span>
+                <span class="icon-i-conversations"></span>
+            </a>
+            <button class="button">
+                <span>Train</span>
+                <span class="icon-i-robot"></span>
+            </button>
+        </div>
+    </div>
+    <div class="card__footer">
+        <span class="card__footer__result">
+            6 Minutes Ago — <span class="card__footer__result-indicator">Not Helpful</span>
+        </span>
+        <a href="#" class="card__footer__delete">
+            <span class="icon-i-bin"></span>
+        </a>
+    </div>
+</div>
+
+
+        <div class="card">
+    <div class="card__header">
+        <span class="card__header__icon icon-i-question">
+        </span>
+        <p class="card__header__title">
+            Why haven’t I recieved my products
+            yet, ordered more than a week ago?
+        </p>
+    </div>
+    <div class="card__content">
+        <select class="card__content__answer-select">
+            <option value="">Could I have your invoice invoice_id?</option>
+            <option value="1">Lorem Ipsum</option>
+            <option value="2">Lorem Ipsum</option>
+        </select>
+        <div class="card__content__controls">
+            <a href="#" class="link">
+                <span>View conversation</span>
+                <span class="icon-i-conversations"></span>
+            </a>
+            <button class="button">
+                <span>Train</span>
+                <span class="icon-i-robot"></span>
+            </button>
+        </div>
+    </div>
+    <div class="card__footer">
+        <span class="card__footer__result">
+            6 Minutes Ago — <span class="card__footer__result-indicator">Not Helpful</span>
+        </span>
+        <a href="#" class="card__footer__delete">
+            <span class="icon-i-bin"></span>
+        </a>
+    </div>
+</div>
+
 
     </div>
 </div>
@@ -103,8 +216,41 @@
         
             
             
-<footer class="l-footer">
-    <p>test</p>
+<footer>
+    <div class="footer l-inner">
+        <h2 class="footer__title">Improvements</h2>
+        <p class="footer__description">— Based on conversations, these questions often requires a follow up</p>
+
+        <div class="footer-card">
+            <div class="footer-card__content">
+                <span class="icon icon-i-lightbulb"></span>
+                <div>
+                    <h2 class="footer-card__content__title">Do you offer money back guarantee?</h2>
+                    <p class="footer-card__content__description">For when your bot is not confident on how
+                        to answer the question.</p>
+                </div>
+            </div>
+            <div class="footer-card__bottom">
+                <ul class="footer-card__bottom__controlls">
+                    <li>
+                        <span class="icon-i-comment-smile"></span>
+                        <span>58%</span>
+                    </li>
+                    <li>
+                        <span class="icon-i-thumbs-up"></span>
+                        <span>14</span>
+                    </li>
+                    <li>
+                        <span class="icon-i-thumbs-down"></span>
+                        <span>14</span>
+                    </li>
+                    <li>
+                        <span class="icon-i-expand"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </footer>
 
         

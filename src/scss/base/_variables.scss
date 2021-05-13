@@ -29,6 +29,7 @@ $colors: (
     white: #fff,
 
     light-bg: #E6EBF1,
+    lightest-bg: #F6F9FC,
     dark-bg: #1C2237,
     dark-font: #3C3C3F,
     light-font:#838EAB,
@@ -36,7 +37,9 @@ $colors: (
     accent_red: #FB726F,
     accent_orange: #F8A86B,
 
-    primary-blue: #465DEF
+    primary-blue: #465DEF,
+
+    dark-card-bg: #212844
 );
 
 $sizes: (
@@ -52,9 +55,8 @@ $sizes: (
 $font-sizes: (
     main: 14px,
     nav: 1.1rem,
-    h1: 3rem,
-    h2: 2rem,
-    h3: 1.5rem,
+    h1: 2rem,
+    h2: 1.15rem,
     small: 0.8rem,
     quote: 9px
 );
@@ -66,7 +68,8 @@ $offsets: (
 );
 
 $fonts: (
-    main: #{'Arial', sans-serif}
+    //main: #{'Arial', sans-serif}
+    main: #{'SF Pro Text', sans-serif}
     // secondary: 'Helvetica'
 );
 
@@ -78,4 +81,117 @@ $defaults: (
 /* Standalone variables
 ========================================================================== */
 $white-space: 1em;
+$card-header-padding: 2rem;
 $form-control-height: 2rem;
+
+
+
+/* SFPRO Font
+========================================================================== */
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-BoldItalic.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-Heavy.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-HeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-Light.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-Bold.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-RegularItalic.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-MediumItalic.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-LightItalic.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-LightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-Medium.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-SemiboldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-Regular.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../fonts/SFPro/SFProText-Semibold.woff2') format('woff2'),
+        url('../fonts/SFPro/SFProText-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

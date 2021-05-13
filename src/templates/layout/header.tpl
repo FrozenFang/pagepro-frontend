@@ -2,6 +2,7 @@
 <header class="header">
     <nav class="header-nav">
         <div class="header-nav-left">
+        <button class="header-nav-left__mobile-menu">O</button>
             <ul class="header-nav-left__menu">
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">

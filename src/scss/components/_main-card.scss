@@ -1,0 +1,75 @@
+.card {
+    background-color: color(white);
+    margin: 2rem 0;
+    border-radius: 0.3rem;
+    box-shadow: 0px 7px 14px rgba(50, 50, 93, 0.1);
+    &__header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: $card-header-padding;
+        &__icon {
+            font-size: 1.4rem;
+            color: color(accent_red);
+            padding-right: $white-space;
+        }
+        &__title {
+            padding: 0;
+            margin: 0;
+            max-width: 80%;
+        }
+    }
+    &__content {
+        background-color: color(lightest-bg);
+        border-top: 1px solid darken(color(light-bg), 5);
+        border-bottom: 1px solid darken(color(light-bg), 5);
+        padding: $white-space;
+        display: flex;
+        flex-direction: column;
+        &__answer-select {
+            margin: $white-space 0;
+            color: color(light-font);
+            padding: 1rem 0.8rem;
+            border: 1px solid color(light-bg);
+            border-radius: 0.3rem;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+        &__controls {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            .link {
+                text-decoration: underline;
+                color: color(light-font);
+                padding-right: $card-header-padding;
+            }
+            .button {
+                background-color: color(primary-blue);
+                color: color(white);
+                border: none;
+                box-shadow: none;
+                width: 6rem;
+                height: 2.5rem;
+                border-radius: 0.3rem;
+            }
+        }
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.3rem;
+        color: color(light-font);
+        &__result {
+            &-indicator{
+                color: color(accent_red);
+            }
+        }
+        &__delete {
+            color: color(light-font);
+        }
+    }
+}

@@ -1,17 +1,18 @@
 {% extends "base/base.tpl" %}
 {% block title %}
-    Homepage
+Homepage
 {% endblock %}
 {% block content %}
 
 <div class="l-inner">
     <div class="l-main__head">
-        <div class="l-main__head__title">
-            <h2>Page Content</h2>
-        </div>
+    {% include "components/main-search.tpl" %}
     </div>
-    <div class="l-main__content">
-        {% include "components/main-nav.tpl" %}
+    <div>
+        {% include "components/main-card.tpl" %}
+        {% include "components/main-card.tpl" %}
+        {% include "components/main-card.tpl" %}
     </div>
 </div>
 {% endblock %}
+
