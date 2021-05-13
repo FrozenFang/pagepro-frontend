@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot');
-    src:  url('../fonts/icomoon.eot') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf') format('truetype'),
-      url('../fonts/icomoon.woff') format('woff'),
-      url('../fonts/icomoon.svg#icomoon') format('svg');
+    src:  url('../fonts/icomoon.eot?iv6nki');
+    src:  url('../fonts/icomoon.eot?iv6nki#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?iv6nki') format('truetype'),
+      url('../fonts/icomoon.woff?iv6nki') format('woff'),
+      url('../fonts/icomoon.svg?iv6nki#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -31,51 +31,57 @@
   .icon-i-answers:before {
     content: "\e901";
   }
-  .icon-i-bin:before {
+  .icon-i-arrows:before {
     content: "\e902";
   }
-  .icon-i-comments:before {
+  .icon-i-bin:before {
     content: "\e903";
   }
-  .icon-i-comment-smile:before {
+  .icon-i-comments:before {
     content: "\e904";
   }
-  .icon-i-conversations:before {
+  .icon-i-comment-smile:before {
     content: "\e905";
   }
-  .icon-i-dots:before {
+  .icon-i-conversations:before {
     content: "\e906";
   }
-  .icon-i-expand:before {
+  .icon-i-dots:before {
     content: "\e907";
   }
-  .icon-i-level-up:before {
+  .icon-i-expand:before {
     content: "\e908";
   }
-  .icon-i-lightbulb:before {
+  .icon-i-level-up:before {
     content: "\e909";
   }
-  .icon-i-logo:before {
+  .icon-i-lightbulb:before {
     content: "\e90a";
   }
-  .icon-i-question:before {
+  .icon-i-logo:before {
     content: "\e90b";
   }
-  .icon-i-questions:before {
+  .icon-i-mobile-menu:before {
     content: "\e90c";
   }
-  .icon-i-robot:before {
+  .icon-i-question:before {
     content: "\e90d";
   }
-  .icon-i-search:before {
+  .icon-i-questions:before {
     content: "\e90e";
   }
-  .icon-i-settings:before {
+  .icon-i-robot:before {
     content: "\e90f";
   }
-  .icon-i-thumbs-down:before {
+  .icon-i-search:before {
     content: "\e910";
   }
-  .icon-i-thumbs-up:before {
+  .icon-i-settings:before {
     content: "\e911";
+  }
+  .icon-i-thumbs-down:before {
+    content: "\e912";
+  }
+  .icon-i-thumbs-up:before {
+    content: "\e913";
   }

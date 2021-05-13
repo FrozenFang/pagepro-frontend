@@ -14,21 +14,21 @@
                 </div>
             </div>
             <div class="footer-card__bottom">
-                <ul class="footer-card__bottom__controlls">
-                    <li>
-                        <span class="icon-i-comment-smile"></span>
+                <ul class="footer-card__bottom-controlls">
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-comment-smile"></span>
                         <span>58%</span>
                     </li>
-                    <li>
-                        <span class="icon-i-thumbs-up"></span>
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-thumbs-up"></span>
                         <span>14</span>
                     </li>
-                    <li>
-                        <span class="icon-i-thumbs-down"></span>
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-thumbs-down"></span>
                         <span>14</span>
                     </li>
-                    <li>
-                        <span class="icon-i-expand"></span>
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-expand"></span>
                     </li>
                 </ul>
             </div>

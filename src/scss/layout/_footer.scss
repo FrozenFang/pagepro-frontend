@@ -1,8 +1,10 @@
 /* ==========================================================================
    Footer
    ========================================================================== */
-.footer {
+footer {
     background-color: color(dark-bg);
+}
+.footer {
     padding: $card-header-padding;
     &__title {
         color: color(white);
@@ -27,7 +29,7 @@
             padding: $card-header-padding;
             display: flex;
             align-items: flex-start;
-            .icon{
+            .icon {
                 font-size: 1.3rem;
                 color: color(white);
                 padding-right: $white-space;
@@ -45,10 +47,20 @@
                 margin: 0;
             }
         }
-        &__bottom {
-            color:color(light-font);
-            &__controlls{
-                list-style: none;
+        &__bottom-controlls {
+            color: color(light-font);
+            list-style: none;
+            display: flex;
+            margin: 0;
+            &__item {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                padding: $white-space 0;
+                border-right: 1px solid color(light-font);
+                .icon {
+                    padding-right: $white-space;
+                }
             }
         }
     }
