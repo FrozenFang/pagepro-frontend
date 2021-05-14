@@ -33,6 +33,7 @@
             border: 1px solid color(light-bg);
             border-radius: 0.3rem;
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
+
             background-image: url('../img/icons/i-arrows.svg');
             background-position: calc(100% - 1rem), 100% 0;
             background-size:  1rem 1rem;
@@ -40,6 +41,12 @@
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
+
+            transition: 0.3s;
+            &:focus{
+                border-color: color(primary-blue);
+                outline: none;
+            }
         }
         &__controls {
             display: flex;
@@ -50,6 +57,12 @@
                 text-decoration: underline;
                 color: color(light-font);
                 padding-right: $card-header-padding;
+                transition: 0.3s;
+                text-underline-offset: 0.25rem;
+
+                &:hover, &:active{
+                    color: color(primary-blue);
+                }
             }
             .button {
                 background-color: color(primary-blue);
@@ -59,6 +72,21 @@
                 width: 6rem;
                 height: 2.5rem;
                 border-radius: 0.3rem;
+                transition: 0.3s;
+                cursor: pointer;
+
+                .icon{
+                    opacity: 0.5;
+                    padding-left: 0.5rem;
+                    transition: 0.3s;
+                }
+
+                &:hover, &:active{
+                    background-color: lighten(color(primary-blue), 10);
+                    .icon{
+                        opacity: 1;
+                    }
+                }
             }
         }
     }
@@ -74,6 +102,11 @@
         }
         &__delete {
             color: color(light-font);
+            cursor: pointer;
+            transition: 0.3s;
+            &:hover, &:active{
+                color: color(accent_red);
+            }
         }
     }
 }

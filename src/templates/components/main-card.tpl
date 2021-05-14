@@ -16,11 +16,11 @@
         <div class="card__content__controls">
             <a href="#" class="link">
                 <span>View conversation</span>
-                <span class="icon-i-conversations"></span>
+                <span class="icon icon-i-conversations"></span>
             </a>
             <button class="button">
                 <span>Train</span>
-                <span class="icon-i-robot"></span>
+                <span class="icon icon-i-robot"></span>
             </button>
         </div>
     </div>
@@ -29,7 +29,7 @@
             6 Minutes Ago — <span class="card__footer__result-indicator">Not Helpful</span>
         </span>
         <a href="#" class="card__footer__delete">
-            <span class="icon-i-bin"></span>
+            <span class="icon icon-i-bin"></span>
         </a>
     </div>
 </div>
