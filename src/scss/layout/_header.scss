@@ -4,7 +4,7 @@
 .header {
     background-color: color(primary-blue);
     height: 3.4rem;
-    .header-nav{
+    .header-nav {
         //max-width: map-get($breakpoints, desktop);
         margin: 0 auto;
         padding-right: $white-space;
@@ -14,25 +14,25 @@
         display: flex;
         justify-content: space-between;
     }
-    .header-nav-left{
+    .header-nav-left {
         display: flex;
         align-items: center;
         height: 100%;
-        &__mobile-menu{
+        &__mobile-menu {
             color: color(white);
             font-size: 1.5rem;
         }
-        &__menu{
+        &__menu {
             display: none;
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        &__item{
+        &__item {
             display: inline-flex;
             padding-right: map-get($offsets, default);
         }
-        &__link{
+        &__link {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -41,31 +41,36 @@
             opacity: 0.6;
             font-size: map-get($font-sizes, nav);
         }
-        &__icon{
+        &__icon {
             color: color(white);
             opacity: 0.6;
             font-size: 1.4rem;
             padding-right: map-get($offsets, small);
         }
-        .icon-i-logo{
+        .icon-i-logo {
             font-size: 1.8rem;
             padding-right: map-get($offsets, default);
         }
     }
-    .header-nav-right{
+    .header-nav-right {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         height: 100%;
-        &__menu{
+        &__menu {
+            display: flex;
             list-style: none;
             padding: 0;
             margin: 0;
         }
-        &__item{
-            display: inline-flex;
+        &__item {
+            justify-content: center;
+            display: flex;
+            align-items: center;
             padding-right: map-get($offsets, default);
+            padding-left: map-get($offsets, default);
+            border-left: 1px solid lighten(color(primary-blue), 5);
         }
-        &__link{
+        &__link {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -74,14 +79,24 @@
             opacity: 0.6;
             font-size: map-get($font-sizes, nav);
         }
-        &__icon{
+        &__icon {
             color: color(white);
             opacity: 0.6;
             font-size: 1.4rem;
             padding-right: map-get($offsets, small);
+            padding-left: map-get($offsets, small);
         }
-        &__user-avatar{}
-        &__user-name{}
-        &__user-position{}
+        &__icon-menu{
+            color: color(white);
+            opacity: 0.6;
+            font-size: 1.2rem;
+            padding-left: map-get($offsets, small);
+        }
+        &__user-avatar {
+        }
+        &__user-name {
+        }
+        &__user-position {
+        }
     }
 }

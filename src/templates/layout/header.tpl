@@ -45,7 +45,7 @@
             <ul class="header-nav-right__menu">
                 <li class="header-nav-right__item">
                     <a class="header-nav-right__link" href="#">
-                        <span class="header-nav-right__item">Test Bot</span>
+                        <span class="header-nav-right__text">Test Bot</span>
                         <span class="header-nav-right__icon icon-i-robot"></span>
                     </a>
                 </li>
@@ -54,7 +54,7 @@
                         <span class="header-nav-right__user-avatar">KC</span>
                         <span class="header-nav-right__user-name">Kasper</span>
                         <span class="header-nav-right__user-position">Agent</span>
-                        <span class="header-nav-right__icon icon-i-dots"></span>
+                        <span class="header-nav-right__icon-menu icon-i-dots"></span>
                     </a>
                 </li>
             </ul>
