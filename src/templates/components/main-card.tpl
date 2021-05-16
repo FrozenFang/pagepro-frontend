@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card child col-4">
     <div class="card__header">
         <span class="card__header__icon icon-i-question">
         </span>

@@ -1,4 +1,4 @@
-<div class="search">
+<div class="search child col-12">
     <h2 class="search__title">Questions</h2>
     <p class="search__description">— Train the Bot to give better answers to asked questions</p>
     <div class="search__controlls">

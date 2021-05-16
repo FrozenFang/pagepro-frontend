@@ -18,40 +18,36 @@ Homepage
     <nav class="header-nav">
         <div class="header-nav-left">
             <span class="header-nav-left__mobile-menu icon-i-mobile-menu"></span>
+            <span class="header-nav-left__icon icon-i-logo"></span>
             <ul class="header-nav-left__menu">
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">
-                        <span class="header-nav-left__icon icon-i-logo"></span>
-                    </a>
-                </li>
-                <li class="header-nav-left__item">
-                    <a class="header-nav-left__link" href="#">
                         <span class="header-nav-left__icon icon-i-answers"></span>
-                        <span class="header-nav-left__item">Answers</span>
+                        <span class="header-nav-left__description">Answers</span>
                     </a>
                 </li>
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">
                         <span class="header-nav-left__icon icon-i-questions"></span>
-                        <span class="header-nav-left__item">Questions</span>
+                        <span class="header-nav-left__description">Questions</span>
                     </a>
                 </li>
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">
                         <span class="header-nav-left__icon icon-i-conversations"></span>
-                        <span class="header-nav-left__item">Conversations</span>
+                        <span class="header-nav-left__description">Conversations</span>
                     </a>
                 </li>
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">
                         <span class="header-nav-left__icon icon-i-analytics"></span>
-                        <span class="header-nav-left__item">Analytics</span>
+                        <span class="header-nav-left__description">Analytics</span>
                     </a>
                 </li>
                 <li class="header-nav-left__item">
                     <a class="header-nav-left__link" href="#">
                         <span class="header-nav-left__icon icon-i-settings"></span>
-                        <span class="header-nav-left__item">Settings</span>
+                        <span class="header-nav-left__description">Settings</span>
                     </a>
                 </li>
             </ul>
@@ -66,9 +62,11 @@ Homepage
                 </li>
                 <li class="header-nav-right__item">
                     <a class="header-nav-right__link" href="#">
-                        <span class="header-nav-right__user-avatar">KC</span>
-                        <span class="header-nav-right__user-name">Kasper</span>
-                        <span class="header-nav-right__user-position">Agent</span>
+                        <img src="/static/img/user-avatar.svg" class="header-nav-right__user-avatar">
+                        <div class="header-nav-right__credentials">
+                            <span class="header-nav-right__credentials__user-name">Kasper</span>
+                            <span class="header-nav-right__credentials__user-position">Agent</span>
+                        </div>
                         <span class="header-nav-right__icon-menu icon-i-dots"></span>
                     </a>
                 </li>
@@ -80,10 +78,8 @@ Homepage
         
         <main class="l-main">
             
-
-<div class="l-inner">
-    <div class="l-main__head">
-    <div class="search">
+<div class="grid">
+ <div class="search child col-12">
     <h2 class="search__title">Questions</h2>
     <p class="search__description">— Train the Bot to give better answers to asked questions</p>
     <div class="search__controlls">
@@ -96,9 +92,9 @@ Homepage
     </div>
 </div>
 
-    </div>
-    <div>
-        <div class="card">
+ </div>
+<div class="grid grid-auto-xs grid-gap-md">
+        <div class="card child col-4">
     <div class="card__header">
         <span class="card__header__icon icon-i-question">
         </span>
@@ -135,7 +131,7 @@ Homepage
 </div>
 
 
-        <div class="card">
+        <div class="card child col-4">
     <div class="card__header">
         <span class="card__header__icon icon-i-question">
         </span>
@@ -172,7 +168,7 @@ Homepage
 </div>
 
 
-        <div class="card">
+        <div class="card child col-4">
     <div class="card__header">
         <span class="card__header__icon icon-i-question">
         </span>
@@ -209,7 +205,6 @@ Homepage
 </div>
 
 
-    </div>
 </div>
 
         </main>
@@ -217,11 +212,14 @@ Homepage
             
             
 <footer>
-    <div class="footer l-inner">
-        <h2 class="footer__title">Improvements</h2>
-        <p class="footer__description">— Based on conversations, these questions often requires a follow up</p>
+    <div class="footer">
+        <div class="grid">
+            <h2 class="footer__title">Improvements</h2>
+            <p class="footer__description">— Based on conversations, these questions often requires a follow up</p>
+        </div>
+    <div class="grid grid-auto-xs grid-gap-md">
 
-        <div class="footer-card">
+        <div class="footer-card child col-4">
             <div class="footer-card__content">
                 <span class="icon icon-i-lightbulb"></span>
                 <div>
@@ -252,7 +250,7 @@ Homepage
         </div>
 
 
-        <div class="footer-card">
+        <div class="footer-card child col-4">
             <div class="footer-card__content">
                 <span class="icon icon-i-lightbulb"></span>
                 <div>
@@ -281,6 +279,37 @@ Homepage
                 </ul>
             </div>
         </div>
+
+        <div class="footer-card child col-4">
+            <div class="footer-card__content">
+                <span class="icon icon-i-lightbulb"></span>
+                <div>
+                    <h2 class="footer-card__content__title">Do you offer money back guarantee?</h2>
+                    <p class="footer-card__content__description">For when your bot is not confident on how
+                        to answer the question.</p>
+                </div>
+            </div>
+            <div class="footer-card__bottom">
+                <ul class="footer-card__bottom-controlls">
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-comment-smile"></span>
+                        <span>58%</span>
+                    </li>
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-thumbs-up"></span>
+                        <span>14</span>
+                    </li>
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-thumbs-down"></span>
+                        <span>14</span>
+                    </li>
+                    <li class="footer-card__bottom-controlls__item">
+                        <span class="icon icon-i-expand"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 </footer>
 
