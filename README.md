@@ -11,3 +11,10 @@ pagepro_logo]: https://raw.githubusercontent.com/Pagepro/frontend-recruitment-ta
 ![Task preview](https://github.com/Pagepro/frontend-recruitment-task-dashboard/blob/master/dashboard_preview.png?raw=true)
 
 It has been designed created by Kasper Christensen and can be found on [Dribbble](https://dribbble.com/shots/4857631-Chatbot-UI-Kit-Freebie-xd).
+
+## General:
+- Written in HTML5, SCSS and ES6.
+- bootstraped using [LibSasserPlate](https://github.com/Pagepro/libsasserplate) library.
+- The design is fluid and responsive.
+- Icons are exported as SVG's combined into webfont.
+- 
