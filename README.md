@@ -1,4 +1,4 @@
-pagepro_logo]: https://raw.githubusercontent.com/Pagepro/frontend-recruitment-task-dashboard/master/logo.svg?sanitize=true "Pagepro logo"
+[pagepro_logo]: https://raw.githubusercontent.com/Pagepro/frontend-recruitment-task-dashboard/master/logo.svg?sanitize=true "Pagepro logo"
 
 ![pagepro_logo]
 
@@ -15,6 +15,8 @@ It has been designed created by Kasper Christensen and can be found on [Dribbble
 ## General:
 - Written in HTML5, SCSS and ES6.
 - bootstraped using [LibSasserPlate](https://github.com/Pagepro/libsasserplate) library.
-- The design is fluid and responsive.
+- The design is fluid and responsive based on grid and flexbox.
 - Icons are exported as SVG's combined into webfont.
-- 
+- All the interactive elements have their active states styled and have smooth and simple transitions.
+- Added a simple script to remove a question by clicking on the bin icon on its action bar.
+- Added a script to increase improvements questions (the boxes on the dark background) upvote and downvote count upon clicking the corresponding icon.

@@ -45,7 +45,7 @@
             </li>
             <li class="header-nav-right__item">
                 <a class="header-nav-right__link" href="#">
-                    <img src="/static/img/user-avatar.svg" class="header-nav-right__user-avatar">
+                    <img src="/static/img/user-avatar.svg" class="header-nav-right__user-avatar" alt="user avatar">
                     <div class="header-nav-right__credentials">
                         <span class="header-nav-right__credentials__user-name">Kasper</span>
                         <span class="header-nav-right__credentials__user-position">Agent</span>

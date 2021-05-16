@@ -13,11 +13,12 @@ $grid-columns: 12;
 
     & > * {
         grid-column-end: span var(--grid-cols);
+        -ms-grid-column-end: 12;
     }
 }
 
 @for $i from 1 through $grid-columns {
-    .col-#{$i} { grid-column-end: span #{$i}; }
+    .col-#{$i} { grid-column-end: span #{$i};}
     .col-start-#{$i} { grid-column-start: #{$i}; }
     .col-end-#{$i+1} { grid-column-end: #{$i+1}; }
 }
@@ -29,6 +30,7 @@ $grid-columns: 12;
 .grid-auto-lg,
 .grid-auto-xl {
     display: grid;
+    display: -ms-grid;
     grid-gap: var(--grid-gap, 0);
     grid-template-columns: repeat(auto-fit, minmax(var(--col-min-width), 1fr));
 }
