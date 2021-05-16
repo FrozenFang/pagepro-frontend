@@ -1,4 +1,6 @@
-.search{
+.question-search{
+    padding-top: 3rem;
+    padding-bottom: $white-space;
     &__title{
         color: color(dark-font);
         font-size: font-size(h2);

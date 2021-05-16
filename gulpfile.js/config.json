@@ -45,7 +45,9 @@
             "extensions": ["sass", "scss", "css"],
             "autoprefixer": {
                 "flexbox": true,
-                "grid": true
+                "grid": true,
+                "grid-area": true
+
             }
         },
 

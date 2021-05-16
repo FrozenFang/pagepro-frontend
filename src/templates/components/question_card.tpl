@@ -1,4 +1,4 @@
-<div class="card child col-4">
+<div class="card {{cardState.state}} child col-4">
     <div class="card__header">
         <span class="card__header__icon icon-i-question">
         </span>
@@ -28,9 +28,8 @@
         <span class="card__footer__result">
             6 Minutes Ago — <span class="card__footer__result-indicator">Not Helpful</span>
         </span>
-        <a href="#" class="card__footer__delete">
+        <a href="" class="card__footer__delete">
             <span class="icon icon-i-bin"></span>
         </a>
     </div>
 </div>
-

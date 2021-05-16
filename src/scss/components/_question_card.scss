@@ -34,16 +34,16 @@
             border-radius: 0.3rem;
             box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
 
-            background-image: url('../img/icons/i-arrows.svg');
+            background-image: url("../img/icons/i-arrows.svg");
             background-position: calc(100% - 1rem), 100% 0;
-            background-size:  1rem 1rem;
+            background-size: 1rem 1rem;
             background-repeat: no-repeat;
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
 
             transition: 0.3s;
-            &:focus{
+            &:focus {
                 border-color: color(primary-blue);
                 outline: none;
             }
@@ -60,7 +60,8 @@
                 transition: 0.3s;
                 text-underline-offset: 0.25rem;
 
-                &:hover, &:active{
+                &:hover,
+                &:active {
                     color: color(primary-blue);
                 }
             }
@@ -75,15 +76,16 @@
                 transition: 0.3s;
                 cursor: pointer;
 
-                .icon{
+                .icon {
                     opacity: 0.5;
                     padding-left: 0.5rem;
                     transition: 0.3s;
                 }
 
-                &:hover, &:active{
+                &:hover,
+                &:active {
                     background-color: lighten(color(primary-blue), 10);
-                    .icon{
+                    .icon {
                         opacity: 1;
                     }
                 }
@@ -104,9 +106,30 @@
             color: color(light-font);
             cursor: pointer;
             transition: 0.3s;
-            &:hover, &:active{
+            &:hover,
+            &:active {
                 color: color(accent_red);
             }
         }
+    }
+}
+
+.error {
+    .card__header__icon {
+        color: color(accent_red);
+    }
+    .card__footer__result_indicator {
+        color: color(accent_red);
+    }
+}
+
+.warning {
+    .card__header {
+        .card__header__icon {
+            color: color(accent_orange);
+        }
+    }
+    .card__footer__result-indicator {
+        color: color(accent_orange);
     }
 }
