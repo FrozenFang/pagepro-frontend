@@ -12,6 +12,9 @@
 
 It has been designed created by Kasper Christensen and can be found on [Dribbble](https://dribbble.com/shots/4857631-Chatbot-UI-Kit-Freebie-xd).
 
+## Live Site
+[![Netlify Status](https://api.netlify.com/api/v1/badges/65932e95-602f-4d01-a142-f20b095dd54c/deploy-status)](https://app.netlify.com/sites/quizzical-panini-a11d9b/deploys)
+
 ## General:
 - Written in HTML5, SCSS and ES6.
 - bootstraped using [LibSasserPlate](https://github.com/Pagepro/libsasserplate) library.
