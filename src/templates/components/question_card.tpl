@@ -3,8 +3,7 @@
         <span class="card__header__icon icon-i-question">
         </span>
         <p class="card__header__title">
-            Why haven’t I recieved my products
-            yet, ordered more than a week ago?
+            {{cardState.title}}
         </p>
     </div>
     <div class="card__content">
@@ -26,7 +25,7 @@
     </div>
     <div class="card__footer">
         <span class="card__footer__result">
-            6 Minutes Ago — <span class="card__footer__result-indicator">Not Helpful</span>
+            6 Minutes Ago — <span class="card__footer__result-indicator">{{cardState.result}}</span>
         </span>
         <a href="" class="card__footer__delete">
             <span class="icon icon-i-bin"></span>

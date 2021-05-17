@@ -2,8 +2,8 @@
     <div class="improvement-card__content">
         <span class="icon icon-i-lightbulb"></span>
         <div>
-            <h2 class="improvement-card__content__title">Do you offer money back guarantee?</h2>
-            <p class="improvement-card__content__description">➥ Falloff — level 2</p>
+            <h2 class="improvement-card__content__title">{{cardState.title}}</h2>
+            <p class="improvement-card__content__description">{{cardState.description}}</p>
         </div>
     </div>
     <div class="improvement-card__bottom">
