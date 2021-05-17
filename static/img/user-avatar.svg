@@ -1,3 +1,6 @@
-<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
-  <rect id="Rectangle_371" data-name="Rectangle 371" width="34" height="34" rx="4" fill="#5b6df5"/>
+<svg id="Component_3_1" data-name="Component 3 – 1" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Component_2_1" data-name="Component 2 – 1">
+    <rect id="Rectangle_371" data-name="Rectangle 371" width="34" height="34" rx="4" fill="#5b6df5"/>
+  </g>
+  <text id="KC" transform="translate(8 22)" fill="#fff" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">KC</tspan></text>
 </svg>
