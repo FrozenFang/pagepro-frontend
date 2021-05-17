@@ -1,11 +1,11 @@
 .improvement-card {
-    margin: 2rem 0;
     border-radius: 0.3rem;
     background-color: color(dark-card-bg);
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.07);
     animation: fadeIn 0.5s;
     &__content {
         background-color: color(primary-blue);
+        min-height: 12rem;
         padding: $card-header-padding;
         display: flex;
         align-items: flex-start;
